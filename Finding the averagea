@@ -1,0 +1,15 @@
+#include<stdio.h>
+//Question on finding the average of three number of a students
+int main(){
+    float x,y,z;
+    printf("enter the number of the first student:\n");
+    scanf("%f",&x);
+    printf("Enter the number of the second student:\n");
+    scanf("%f",&y);
+    printf("Enter the number of the second student:\n");
+    scanf("%f",&z);
+    float avg= (x+y+z)/3;
+    printf("the average of the students is%f",avg);
+    return 0;
+
+}
