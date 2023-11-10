@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+    int age;
+    printf("Enter the age of the Person:\n");
+    scanf("%d", &age);
+    
+    if(age>=13&&age<18){
+    printf("The person is a Teenager\n");
+    }
+    else if(age>=19&&age<=30){
+    printf(" The Person iS Young MAN\n");}
+    
+        else if(age<13)
+        {
+            printf("The person is a child\n");
+
+        }
+        else{
+        printf("The person is a OLD MAN");
+        }
+        return 0;
+}
